@@ -1,0 +1,19 @@
+h1 {
+    color: deepskyblue;
+}
+
+h2 {
+    color: firebrick;
+}
+
+li {
+    color: green;
+}
+p,h4{
+    color: rgb(25, 0, 255);
+}
+* {
+    text-align: center;
+}
+
+
