@@ -14,6 +14,7 @@ p,h4{
 }
 * {
     text-align: center;
+    background-color: lightgray;
 }
 
 
@@ -21,4 +22,11 @@ p,h4{
     color: indianred;
     
 
+}
+#cool {
+     color: violet;
+     font-family: cursive;
+     width: 10000;
+     text-align: center;
+     border: black;
 }
