@@ -13,10 +13,9 @@ p,h4{
     color: rgb(25, 0, 255);
 }
 * {
-    text-align: center;
     background-color: lightgray;
+    text-align: center;
 }
-
 
 #mike-tomlin {
     color: indianred;
@@ -26,7 +25,6 @@ p,h4{
 #cool {
      color: violet;
      font-family: cursive;
-     width: 10000;
-     text-align: center;
-     border: black;
-}
+     width: 10;
+     
+     
