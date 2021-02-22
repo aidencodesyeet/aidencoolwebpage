@@ -9,3 +9,8 @@ a {
     color: indianred;
 
 }
+
+* {
+    background-image: url("../images/steelers.png");
+   background-size:  1400px;
+}
