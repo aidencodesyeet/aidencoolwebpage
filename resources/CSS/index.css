@@ -18,11 +18,13 @@ p,h4{
 }
 
 #cool {
-    color: violet;
+    color: navy;
     font-family: cursive;
     width: 10;
 }
 
-
+#image {
+    border: 5px solid black;
+}
      
      
