@@ -14,3 +14,7 @@ p {
 #cursive {
     font-family: cursive;
 }
+
+img {
+    width: 300px;
+}
