@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Years Chart</title>
+</head>
+
+<body>
+    <h2>
+        Type in your age and you get it in dog years
+    </h2>
+    <script id="script">
+        // This line of code makes a variable that tells my age;
+let myAge = 12;
+// This line of code tells the early years;
+let earlyYears = 2;
+earlyYears = 2 * 10.5;
+// This line of code accounts for my later years.
+let laterYears = myAge - 2;
+// This line of code multiplys laterYears by 4;
+laterYears *= 4;
+// This adds earlyYears and LaterYears together;
+let myAgeInDogYears = earlyYears + laterYears;
+console.log(myAgeInDogYears);
+</script>
+
+    <p id=dogYearsChart>
+        <button type="button" onclick="document.write(myAgeInDogYears)">Aiden's Age In Dog Years</button>
+    </p>
+
+<script>
+        
+
+let momsAge= 47;
+let momsEarlyYears = 2;
+momsEarlyYears = 2 * 10.5;
+let momsLaterYears= momsAge - 2;
+momsLaterYears *= 4;
+let momsAgeInDogYears = momsEarlyYears + momsLaterYears;
+console.log(momsAgeInDogYears)
+    </script>
+
+<p id="LaurensAgeInDogYears">
+    <button type="button" onclick="document.write(momsAgeInDogYears)">Lauren's Age In Dog Years</button>
+</p>
+    
+<script>
+        
+
+let dadsAge= 50;
+let dadsEarlyYears = 2;
+dadsEarlyYears = 2 * 10.5;
+let dadsLaterYears= dadsAge - 2;
+dadsLaterYears *= 4;
+let dadsAgeInDogYears = dadsEarlyYears + dadsLaterYears;
+console.log(dadsAgeInDogYears)
+    </script>
+
+<p id="JonathansAgeInDogYears">
+    <button type="button" onclick="document.write(dadsAgeInDogYears)">Jonathan's Age In Dog Years</button>
+</p>
+    
+</body>
+</html>
